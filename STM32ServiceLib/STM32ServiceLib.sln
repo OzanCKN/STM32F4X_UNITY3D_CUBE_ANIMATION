@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STM32ServiceLib", "STM32ServiceLib\STM32ServiceLib.csproj", "{2D7D2757-8F54-4D61-830B-059BCE46A728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STM32Services", "STM32Services\STM32Services.csproj", "{56ED47D4-AC8E-4939-BCF2-ECB9CAE90ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientTester", "ClientTester\ClientTester.csproj", "{8FC74E24-D66D-4441-9E6D-A90ADFB9C772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPortConverter", "SerialPortConverter\SerialPortConverter.csproj", "{D5179FEB-6547-424F-A2EC-04F482BC6DA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D7D2757-8F54-4D61-830B-059BCE46A728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7D2757-8F54-4D61-830B-059BCE46A728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7D2757-8F54-4D61-830B-059BCE46A728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7D2757-8F54-4D61-830B-059BCE46A728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56ED47D4-AC8E-4939-BCF2-ECB9CAE90ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56ED47D4-AC8E-4939-BCF2-ECB9CAE90ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56ED47D4-AC8E-4939-BCF2-ECB9CAE90ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56ED47D4-AC8E-4939-BCF2-ECB9CAE90ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC74E24-D66D-4441-9E6D-A90ADFB9C772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC74E24-D66D-4441-9E6D-A90ADFB9C772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC74E24-D66D-4441-9E6D-A90ADFB9C772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC74E24-D66D-4441-9E6D-A90ADFB9C772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5179FEB-6547-424F-A2EC-04F482BC6DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5179FEB-6547-424F-A2EC-04F482BC6DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5179FEB-6547-424F-A2EC-04F482BC6DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5179FEB-6547-424F-A2EC-04F482BC6DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
